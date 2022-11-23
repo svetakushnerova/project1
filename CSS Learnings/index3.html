@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists and Tables</title>
+    <style>
+        .ulred {
+            list-style-type: none;
+            padding: 10px 20px;
+            background-color: white;
+            border-left: 4px solid red;
+            width: 250px;
+
+        }
+
+        .ulgray {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            border: 1px solid gray;
+            width: 250px;
+        }
+
+        .ligray {
+            padding: 5px;
+            border-bottom: 1px solid gray;
+        }
+
+        .ligray:last-child {
+            border: none;
+        }
+
+        .box {
+            float: left;
+        }
+
+        .container:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+
+        }
+
+        th,td {
+            border: 1px solid gray;
+            text-align: center;
+            padding: 10px;
+
+        }
+
+        tr:hover {
+            background-color: rgb(203, 250, 132);
+        }
+
+        .green {
+            background-color: rgb(58, 146, 58);
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <ul class="ulred">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+                <li>Fanta</li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <ul class="ulgray">
+                <li class="ligray">Coffee</li>
+                <li class="ligray">Tea</li>
+                <li class="ligray">Coca Cola</li>
+                <li class="ligray">Fanta</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div style="margin-top: 50px;">
+        <table>
+            <tr>
+                <th>First name</th>
+                <td>Jill</td>
+                <td>Eve</td>
+            </tr>
+            <tr>
+                <th>Last name</th>
+                <td>Smith</td>
+                <td>Johnson</td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>USA</td>
+                <td>Canada</td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="margin-top: 50px;">
+        <table>
+            <tr>
+              <th class="green">Firstname</th>
+              <th class="green">Lastname</th>
+              <th class="green">Savings</th>
+            </tr>
+            <tr>
+              <td>Peter</td>
+              <td>Griffin</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>Lois</td>
+              <td>Griffin</td>
+              <td>$150</td>
+            </tr>
+            <tr>
+              <td>Joe</td>
+              <td>Swanson</td>
+              <td>$300</td>
+            </tr>
+            <tr>
+              <td>Cleveland</td>
+              <td>Brown</td>
+              <td>$250</td>
+          </tr>
+          </table>
+    </div>
+</body>
+</html>

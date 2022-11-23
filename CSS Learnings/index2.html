@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and Lists</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        a.link1 {
+            background-color: red;
+            color: black;
+            display: inline-block;
+            text-decoration: none;
+            padding: 14px 30px;
+            margin-right: 30px;
+        }
+
+        a.link1:hover {
+            background-color: rgb(187, 3, 3);
+            color: white;
+        }
+
+        a.link2 {
+            background-color: white;
+            color: green;
+            border: 1px solid green;
+            display: inline-block;
+            text-decoration: none;
+            padding: 14px 30px;
+        }
+
+        a.link2:hover {
+            background-color: green;
+            color: white;
+        }
+
+        ol {
+            background-color: rgb(248, 150, 183);
+            width: 400px;
+            height: 150px;
+            padding: 20px;
+        }
+
+        ol li {
+            background-color: rgb(252, 203, 219);
+            color: darkred;
+            padding: 5px;
+            margin-left: 30px;
+        }
+
+        ul {
+            background-color: rgb(52, 52, 255);
+            width: 400px;
+            padding: 20px;
+            margin-left: 30px;
+            height: 150px;
+        }
+
+        ul li {
+            background-color: rgb(165, 165, 218);
+            color: darkblue;
+            margin: 10px;
+            margin-left: 30px;
+        }
+
+        ol,ul {
+            float: left;
+        }
+
+        ul.red-border {
+            list-style-type: none;
+            border-left: 2px solid red;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <a class="link1" href="#">Link</a>
+        <a class="link2" href="#">Link</a>
+    </div>
+
+    <div>
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+            <li>Fanta</li>
+        </ol>
+
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+            <li>Fanta</li>
+        </ul>
+    </div>
+
+   
+</body>
+</html>
