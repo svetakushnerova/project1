@@ -1,36 +1,50 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 1110px;
-    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background: #FDFCEF;
 }
 
 * {
     box-sizing: border-box;
 }
 
-h1, p {
-    margin: 0;
+.container {
+    width: 1110px;
+    margin: 0 auto;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+p {
+    margin: 0;
+    line-height: 1.37em;
+}
 
 h1 {
     font-size: 50px;
     line-height: 140%;
 }
 
-p {
-    width: 423px;
-    font-size: 18px;
-    margin: 30px 0;
-    line-height: 136.7%;
+h2 {
+    font-size: 40px;
+    text-align: center;
 }
 
-a {
+section {
+    padding-top: 120px;
+}
+
+.header {
+    padding-top: 60px;
+}
+
+.btn {
     display: block;
     background: #FF6861;
     border-radius: 100px;
@@ -39,10 +53,88 @@ a {
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
-    width: 219px;
+    width: 227px;
+    transition: all 0.5s ease;
 }
 
-div{
+.btn:hover {
+    background: #f82b20;
+}
+
+.introtext {
+    width: 423px;
+    font-size: 18px;
+    margin: 30px 0;
+    line-height: 136.7%;
+}
+
+.offer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+
+.offer {
     width: 465px;
-    margin-right: 180px;
+}
+
+.logo {
+    display: block;
+}
+
+.item-img {
+    display: block;
+    width: 73px;
+    height: 73px;
+    margin-right: 34px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.item-title {
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 70px auto 0 auto;
+}
+
+.save-wrap {
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    display: flex;
+    padding: 76px 125px 75px 122px;
+    align-items: center;
+}
+
+.save-block {
+    width: 475px;
+}
+
+.save-title {
+    text-align: left;
+}
+
+.save-text {
+    margin: 24px 0;
+    width: 371px;
+}
+
+.ladybug {
+    margin-left: 101px;
+}
+
+.footer {
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
 }
