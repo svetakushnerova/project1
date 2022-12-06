@@ -1,25 +1,63 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }
 
 * {
     box-sizing: border-box;
 }
 
-h1 {
-    font-size: 50px;
-    }
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 700;
+}
 
 p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.header {
+    padding-top: 60px;
+}
+
+.offer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 79px;
+}
+
+.offer {
+    width: 465px;
+}
+
+.logo {
+    margin: 0 auto;
+    display: block;
+}
+
+.introtext {
     font-size: 18px;
     margin: 30px 0;
 }
 
-a {
+.btn {
     background-color: #000;
     border-radius: 100px;
     color: #fff;
@@ -31,8 +69,37 @@ a {
     width: 218px;
 }
 
-div {
-    width: 465px;
-    margin-left: 180px;
+section {
+    padding-top: 120px;
+}
 
+.digit-item {
+    display: flex;
+    align-items: center;
+}
+
+.digit {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 77px;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 34px;
+}
+
+.digit-title {
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+
+.digits {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 70px auto 0 auto;
 }
