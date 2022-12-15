@@ -17,10 +17,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-weight: 700;
+    line-height: 1.4em;
 }
 
 p {
     margin: 0;
+    line-height: 1.37em;
 }
 
 h1 {
@@ -67,6 +69,11 @@ h2 {
     font-weight: 700;
     display: block;
     width: 218px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #232323;
 }
 
 section {
@@ -89,6 +96,12 @@ section {
     justify-content: center;
     align-items: center;
     margin-right: 34px;
+    transition: all 0.5s ease;
+}
+
+.digit-item:hover .digit {
+    background: #000;
+    color: #fff;
 }
 
 .digit-title {
@@ -102,4 +115,33 @@ section {
     gap: 41px;
     width: 720px;
     margin: 70px auto 0 auto;
+}
+
+.practice-wrap {
+    background: linear-gradient(102deg, #E8FFE8 17.38%, #D1F0FF 81.25%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 98px 168px 89px 122px;
+}
+
+.practice-inner {
+    width: 432px;
+    margin-left: 101px;
+}
+
+.practice-title {
+    text-align: left;
+}
+
+.practice-text {
+    width: 371px;
+    margin: 24px 0;
+}
+
+.footer {
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
 }
