@@ -1,0 +1,73 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+#grad1 {
+    border-color: red;
+    background-image: linear-gradient(red, yellow);
+}
+
+#grad2 {
+    background-image: linear-gradient(to right, green, yellow);
+}
+
+#grad3 {
+    background-image: linear-gradient(to bottom right, rgb(116, 2, 116), rgb(252, 89, 116));
+}
+
+#grad4 {
+    background-image: linear-gradient(-90deg, blue, indigo);
+}
+
+#grad5 {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+#grad6 {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+.flex-container div {
+    height: 300px;
+    width: 350px;
+}
+
+#grad7 {
+    background-color: red;
+    background-image: radial-gradient(red, yellow, green);
+}
+
+#grad8 {
+    background-color: indigo;
+    background-image: radial-gradient(pink 5%, violet 15%, indigo 60%);
+}
+
+#grad9 {
+    background-color: red;
+    background-image: radial-gradient(circle, white, black);
+}
+
+#grad10 {
+    background-image: conic-gradient(red, yellow, green);
+}
+
+#grad11 {
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+    border-radius: 50%;
+}
+
+#grad12 {
+    background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+    border-radius: 50%;
+}
